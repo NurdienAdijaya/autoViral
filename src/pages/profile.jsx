@@ -134,7 +134,7 @@ const Profile = () => {
           <div className="profile_form_title">
             <h5>Akun Bank</h5>
           </div>
-          <div>
+          <div className="form_container">
             <Form.Group className="mb-3" controlId="formBasicPassword">
               <div className="form_flex">
                 <Form.Label className="formTitle">
