@@ -1,0 +1,37 @@
+.header_info_container {
+  width: 220px;
+  margin: 10px 15px;
+  padding: 15px;
+  border: 1px #ff5924 solid;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header_statistic_container {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.statistic_icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 10px 0 0;
+}
+.total_amount {
+  font-weight: 800;
+}
+
+@media (max-width: 426px) {
+  .header_info_container {
+    width: 300px;
+  }
+}
+@media (max-width: 330px) {
+  .header_info_container {
+    width: 280px;
+  }
+}

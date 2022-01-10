@@ -1,0 +1,25 @@
+.headerContainer {
+  display: flex;
+}
+.navbarBrand {
+  margin: 0 !important;
+}
+.logo {
+  display: flex;
+}
+.dropdown-menu {
+  border: none !important;
+}
+.nav-link {
+  color: black !important;
+}
+.navbarColor {
+  color: black !important;
+}
+a {
+  color: black !important;
+}
+.offcanvas {
+  background-color: #ffeeda !important;
+  background-image: url("/src/assets/images/menu.png");
+}

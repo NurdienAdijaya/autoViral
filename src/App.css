@@ -1,38 +1,100 @@
-.App {
+h1 {
+  margin: 0 !important;
+}
+
+h2 {
+  margin: 0 !important;
+}
+
+h3 {
+  margin: 0 !important;
+}
+
+h4 {
+  font-size: larger;
+  margin: 0 !important;
+}
+
+h5 {
+  font-size: medium;
+  margin: 0 !important;
+}
+
+h6 {
+  font-size: small;
+  margin: 0 !important;
+}
+a {
+  cursor: pointer;
+
+  text-decoration: none;
+}
+a:hover {
+  color: #00b9cf !important;
+}
+.align_center {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button_blue {
+  background-color: #00b9cf;
+  border-color: #00b9cf;
+  min-width: 100px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button_blue:hover {
+  background-color: #0099cf;
+  border-color: #0099cf;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.button_blue:focus {
+  background-color: #00b9cf;
+  border-color: #00b9cf;
+}
+.button_orange {
+  background-color: #ff5924;
+  border-color: #ff5924;
+  min-width: 100px;
+}
+.button_orange:hover {
+  background-color: #ff3924;
+  border-color: #ff3924;
+}
+.button_orange:focus {
+  background-color: #ff5924;
+  border-color: #ff5924;
+}
+.text_blue {
+  color: #0099cf;
+}
+.text_orange {
+  color: #ff5924;
+}
+.border_cream {
+  border-color: #ffeeda !important;
+}
+.page_container_flex {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-image: url("/src/assets/images/bg.png");
+  background-size: cover;
+}
+.page_container {
+  border-radius: 50px;
+  width: 95%;
+  height: 90%;
+  min-height: 85vh;
+  margin: 2% 0;
+  padding: 1% 2%;
+  padding-bottom: 50px;
+  background-color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 600px) {
+  .page_container {
+    border-radius: 30px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media (max-width: 340px) {
+  .formControl {
+    width: 280px;
   }
 }
